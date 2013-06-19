@@ -50,6 +50,7 @@ end
 
 
 
+# puts Artist.all[2].songs
 # puts Artist.all.count
 # puts
 # puts Song.all.count

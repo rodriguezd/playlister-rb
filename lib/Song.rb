@@ -4,6 +4,7 @@ class Song
   SONGS_W_INFO = []
 
   def initialize(artist, name, genre)
+    @name = name
     @artist = artist
     @genre = genre
     SONGS_W_INFO << self
